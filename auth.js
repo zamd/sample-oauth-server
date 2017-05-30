@@ -17,6 +17,10 @@ passport.use(new BearerStartegy(function(token, cb){
 }));
 
 passport.use("autoAuth", new CustomStrategy(function(req,done){
+
+
+		//TODO: call session endpoint to Authenticate... 
+
 	var id = random(1,process.env.MAX_USERS);
 	debug(`authenticating: getting user:id "${id}"...`);
 	
