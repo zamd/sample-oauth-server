@@ -50,10 +50,3 @@ if (cluster.isMaster) {
 else{ 
 	startServer();	
 }
-
-
-/*
-
-http://localhost:1443/dialog/oauth?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2F&scope=openid%20profile&client_id=232322232232
-
-*/
